@@ -1,0 +1,541 @@
+html {
+	/*width:100% !important;*/
+}
+
+body {
+    background: url("../images/white_feathers.png");
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    position: absolute;
+    /*width: 100%;*/
+    /*min-height: 100%;*/
+    width:100% !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto;
+}
+
+a:hover {
+	color: red;
+}
+
+header {
+  color: #333;
+  background: #ffffff;
+  /*width: 100%;*/
+  border-bottom: 2px solid #ccc;
+  height: 90px;
+}
+
+.headcontainer {
+	left: 158px;
+	width: 100%;
+    margin: 0 auto;
+    clear: both;
+}
+
+#name {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	float: left;
+	font-size: 20px;
+	margin-left: 150px;
+	padding: 24px 32px 32px 32px;
+	color: white;
+	background-color: #4aaaa5;	
+	height: 88px;
+}
+
+nav {
+	float: right;
+	width: 240px;
+	height: 20px;
+	background-color: #ffffff;
+	margin: 30px 170px 30px 0px;
+
+}
+
+#left {
+	float: right;
+	background-color: #ffffff;
+	color: #9d9d9d;
+	padding: 10px;
+	line-height: 5px;
+}
+
+#middle {
+	float: right;
+	background-color: #ffffff;
+	color: #9d9d9d;
+	padding: 10px;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+	line-height: 5px;
+}
+
+#right {
+	float: right;
+	background-color: #ffffff;
+	color: #9d9d9d;
+    padding: 10px;
+    line-height: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+ 	display: block;
+  	clear: both;
+  	height: 50px;	
+  	width: 100%;
+}
+
+.infobox {
+	float: left;
+	padding-top: 20px;
+	background-color: #ffffff;
+	width: 650px;
+	margin-left: 150px;
+	margin-top: 50px;
+	border-color: gray;
+	border: 1px solid #EAEAEA;
+}
+
+#boxtitle {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 20px;
+	background: white;
+	color: #4aaaa5;
+	margin-left: 4%;
+	margin-right: 4%;
+	border-bottom: 3px solid #EAEAEA;
+	text-align: left;
+	padding-top:right;
+}
+
+.para {
+	margin: 3% 3% 2% 5%;
+	text-align: left;
+	line-height: 200%;
+}	
+
+img {
+	margin-top: 3%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 2%;
+}
+
+.connectbox {
+	float: left;
+	margin-top: 50px;
+	background-color: #ffffff;
+	width: 270px;
+	height: 160px;
+	margin-left: 40px;
+	border: 1px solid #dddddd;
+
+}
+
+#connectme {
+	margin-top: 10%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	width: 200px;
+	font-size: 20px;
+	background: white;
+	color: #4aaaa5;	
+	border-bottom: 2px solid #eaeaea;
+	margin: 6% 12%;
+	padding-bottom: 5%;
+}
+
+.icons {
+	margin-left: 12%;
+}
+
+#github {
+	float: left;
+	margin-left: 5px;
+	margin: 0px;
+}
+ 	
+#github:hover { 	
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#linkedin {
+	float: left;
+	margin: 0px 5px;
+}
+
+#linkedin:hover { 	
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#stackoverflow {
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin: 0px;
+}
+
+#stackoverflow:hover { 	
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+footer {
+	background-color: #666666;
+	padding: 20px;
+	bottom: 0;
+	width: 100%;
+	color: #ffffff;
+	border-top: 5px solid #4aaaa5;
+}
+
+.formbox {
+	float: left;
+	padding-top: 20px;
+	background-color: #ffffff;
+	width: 650px;
+	margin-left: 10%;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	border-color: gray;
+	border: 1px solid #EAEAEA;
+}
+
+.contactinfo {
+	width: 300px;
+	float: left;
+	margin-top: 30px;
+	background-color: #ffffff;
+
+}
+
+label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-left: 10%;
+	margin-bottom: 6px;
+	float: left;
+}
+
+input {
+	text-align: left;
+	width: 595px;
+	margin: 0px 0px 12px 10%;
+	border: 1px solid #dddddd;
+}
+
+textarea{
+	width: 595px;
+	height: 195px;
+	border: 1px solid #dddddd;
+	margin-left: 10%;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border-style: solid;
+	border-color: #4aaaa5;
+	margin-bottom: 8%;
+	height: 40px;
+	width: 112px;
+	margin-left: 10%;
+	float: left;
+}
+
+.portfoliobox {
+	float: left;
+	padding-top: 20px;
+	background-color: #ffffff;
+	width: 650px;
+	margin-left: 150px;
+	margin-top: 50px;
+	border-color: gray;
+	border: 1px solid #EAEAEA;
+}
+
+
+h3 {
+	position: absolute;
+	bottom: 2px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	height: 30px;
+	width: 256px;
+	margin-left: 5%;
+	text-align: center;
+	/*padding-top: 1px;*/
+	margin-bottom: 2%;
+}
+
+.pic1 {
+	float: left;
+	position: relative;
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+.pic2 {
+	float: right;
+	position: relative;
+	margin-right: 6%;
+	margin-top: 5%;
+}
+
+.pic3 {
+	float: left;
+	position: relative;
+	margin-left: 2%;
+	margin-top: 5%;
+}
+
+.pic4 {
+	float: right;
+	position: relative;
+	margin-right: 6%;
+	margin-top: 5%;
+}
+
+.pic5 {
+	float: left;
+	position: relative;
+	margin-left: 2%;
+	margin-top: 5%;
+	margin-bottom: 40px;
+}
+
+
+/*/////////////////////DISPLAY @ 980px///////////////////////*/
+@media screen and (max-width: 980px) {
+	/*header {
+		width: 100%;
+	}*/
+
+	nav {
+		float: right;
+		width: 240px;
+		background-color: #ffffff;
+		margin: 30px 90px 30px 0px;
+	}
+
+	#name {
+		margin-left: 80px;
+	}
+
+	.portfoliobox {
+		width: 100px;
+		margin-left: 80px;
+		margin-top: 30px;
+	} 
+
+	.infobox {
+		width: 350px;
+		margin-left: 80px;
+		margin-top: 30px;
+	}
+	
+	.pic1, .pic2, .pic3, .pic4, .pic5 {
+		width: 150px;
+		height: 150px;
+	}
+
+	.pic1, .pic3 {
+		left: 100px;
+	}	
+
+	.pic5 {
+		left: 100px;
+		margin-bottom: 40px;
+	}
+
+	.pic2, .pic4 {
+		right: 100px;
+	}
+
+	.connectbox {
+		margin-top: 30px;
+	}
+
+	#mypic {
+		width: 250px;
+		height: 250px;
+		margin: 15px 20px 15px 50px;
+	}
+
+	.para {
+		text-align: left;
+		line-height: 35px;
+		margin: 15px 15px 15px 30px;
+	}
+
+}
+/*/////////////////////DISPLAY @ 768px///////////////////////*/
+ @media screen and (max-width: 768px)  {
+/*	header {
+		width: 100%;
+	}*/
+
+	/*.headcontainer {
+		margin-left: 0px;
+	}
+*/
+	nav {
+		margin-right: 20px;
+	}
+
+	.portfoliobox {
+		margin-left: 20px;
+		width: 740px;
+	}
+
+	#name {
+		position: relative;
+		left: 0px;
+		margin-left: 20px;
+	}
+
+	.infobox {
+		padding-top: 15px;
+		width: 720px;
+		margin-left: 20px;
+	}
+
+	#boxtitle {
+		margin-top: 10px;
+		padding-bottom: 20px;
+	}	
+
+	#mypic {
+		width: 250px;
+		height: 250px;
+		margin: 20px 20px 0px 20px;
+	}
+
+	.para {
+		width: 660px;
+		margin: 20px 50px 30px 20px;
+	}
+
+	.connectbox {
+		width: 720px;
+		margin-left: 20px;
+		margin-top: 30px;
+	}
+
+	#connectme {
+		width: 670px;
+		margin: 10px 5px 15px 25px;
+		padding-bottom: 5px;
+	}
+
+	.icons {
+		margin-left: 25px;
+	}
+
+} 
+
+/*/////////////////////DISPLAY @ 640px///////////////////////*/
+/*@media screen and (max-width: 640px)  {
+	header,  {
+		width: 100%;
+	}
+	
+	#name {
+		width: 640px;
+		margin-left: -30px;
+		padding-left: 220px;
+	}
+
+	#left {
+		float: left;
+		margin-left: 70px;
+		font-size: 15px;
+	}
+
+	#right {
+		float: right;
+		padding-left: 10px;
+		margin-right: 70px;
+		font-size: 15px;
+	}
+
+	#middle {
+		float: right;
+		padding: 10px 50px;
+		margin: 0px 100px 0px 80px;
+		font-size: 15px;
+	}	
+
+	nav {
+		position: relative;
+		left: -30px;
+		width: 640px;
+		height: 45px;
+		margin: 2px;
+		padding-top: 10px;
+		border-bottom: 2px solid #ccc;
+		margin-bottom: 20px;
+	}
+
+	.infobox {
+		width: 610px;
+		margin: 30px 0px 20px 10px;
+		padding-top: 15px;
+	}
+
+	#boxtitle {
+		padding-bottom: 20px;
+	}	
+
+	#mypic {
+		width: 450px;
+		height: 450px;
+		margin: 15px 25px 10px 75px;
+
+	}
+
+	.para {
+		width: 560px;
+		float: left;
+		line-height: 35px;
+		margin: 15px 0px 20px 25px;
+	}
+
+	.connectbox {
+		float: right;
+		width: 610px;
+		height: 180px;
+		margin: 10px 0px 0px 30px;
+		background-color: #ffffff;
+	}
+
+	#connectme {
+		float: left;
+		width: 580px;
+		height: 50px;
+		margin: 15px 0px 25px 25px;
+		padding-bottom: 5px;
+	}
+
+	.icons {
+		float: left;
+		margin-left: 25px;
+	}
+}*/
