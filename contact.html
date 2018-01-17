@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+
 <head>
-  
       <meta charset="UTF-8">
       <title>Joel's Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" type="text/css" href="assets/reset.css">
       <link rel="stylesheet" type="text/css" href="assets/style.css">
-
 </head>
 
-<body background="images/nice_snow.png">
 
+<body>
+
+<!-- Header container-->
   <header>
-      
-    <h1 id="name">Joel Hernandez</h1>
-        
-        <div class="wrapper">
-
-                <div id="right"><a href="#">Contact</a></div>
-                <div id="middle"><a href="portfolio.html">Portfolio</a></div>
-                <div id="left"><a href="index.html">About</a></div>
-
-        </div>   
-
+    <div class="headcontainer">  
+      <a href="index.html" id="name">Joel Hernandez</a>
+      <nav id="formnavport">
+          <div id="right"><a href="#">Contact</a></div>
+          <div id="middle"><a href="portfolio.html">Portfolio</a></div>
+          <div id="left"><a href="index.html">About</a></div>
+      </nav>   
+    </div>
   </header>
 
     <section class="clearfix">
@@ -31,8 +30,8 @@
             <aside class="formbox">
               <h1 id="boxtitle">Contact</h1>
               <form class="contactinfo">
-                    <div class="formlabel">
-                    <label>Name</label> <br>
+                <div class="formlabel">
+                  <label>Name</label> <br>
                     <input type="text" name="name" placeholder="John Smith"> <br>
                     </div>
                     <div class="formlabel"> 
@@ -50,18 +49,15 @@
               </form>
             </aside>
      
-            <aside class="connectbox">
-                    <h2 id="connectme">Connect with Me</h2>
-                
-                    <div class="icons">
-                        <a href="https://github.com/yocodigo/yocodigo.github.io" target="_blank"><img id="github" alt="My Github" src="images/github.png"></a>
-                        
-                        <a href="https://www.linkedin.com/in/joel-hernandez-eng/" target="_blank"><img id="linkedin" alt="My LinkedIn" src="images/linkedin.png"></a> 
-                       
-                        <a href="https://stackoverflow.com/users/9120166/j-jo" target="_blank"><img id="stackoverflow" alt="My Stackoverflow" src="images/stackoverflow.png"></a>
-
-                    </div>
-
+            <aside class="formconnectbox">
+              <h2 id="connectme">Connect with Me</h2>
+                <div class="icons">
+                  <a href="https://github.com/yocodigo/yocodigo.github.io" target="_blank"><img id="github" alt="My Github" src="images/github.png"></a>
+                              
+                  <a href="https://www.linkedin.com/in/joel-hernandez-eng/" target="_blank"><img id="linkedin" alt="My LinkedIn" src="images/linkedin.png"></a> 
+                             
+                  <a href="https://stackoverflow.com/users/9120166/j-jo" target="_blank"><img id="stackoverflow" alt="My Stackoverflow" src="images/stackoverflow.png"></a>
+                </div>
             </aside>
 
     </section>
