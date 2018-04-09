@@ -16,7 +16,7 @@ img {
 #name {
 background: linear-gradient(to right, rgb(74, 173, 253) , rgba(102,102,102));
 }
-#name, h4, #topH3 {
+#name, h4, #topH3, #boxtitle, #connectme {
 	font-family: Roboto;
 	font-size: 1.5em;
 	color: #000000;
@@ -33,7 +33,6 @@ h4 {
 	bottom: 2px;
 	height: 30px;
 	width: 256px;
-	/* margin-left: 5%; */
 	margin-bottom: 10%;
 	text-align: center;
 }
@@ -119,11 +118,7 @@ nav, #formnavport {
 	border: 1px solid #EAEAEA;
 }
 #boxtitle {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
-	font-size: 20px;
-	background: white;
-	color: #4aaaa5;
+	background: white;	
 	margin-left: 4%;
 	margin-right: 4%;
 	border-bottom: 3px solid #EAEAEA;
@@ -142,27 +137,20 @@ nav, #formnavport {
 	width: 270px;
 	height: 170px;
 	margin-left: 40px;
-	border: 1px solid #dddddd
+	border: 1px solid #dddddd;
+	padding-top: 20px;
 }
 #connectme {
-	margin-top: 10%;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
 	width: 200px;
-	font-size: 20px;
 	background: white;
-	color: #4aaaa5;	
-	border-bottom: 2px solid #eaeaea;
-	margin: 6% 12%;
-	padding-bottom: 5%;
+	border-bottom: 3px solid #EAEAEA;
+	margin: 0% 12%;
 }
 .icons {
 	margin-left: 12%;
 }
 #github {
 	float: left;
-	margin-left: 5px;
-	margin: 0px;
 }
 #github:hover { 	
 	opacity: 0.5;
@@ -176,11 +164,13 @@ nav, #formnavport {
 	opacity: 0.5;
     filter: alpha(opacity=50);
 }
+#stackoverflow, #linkedin, #github {
+	margin-top: 25px;
+}
 #stackoverflow {
 	width: 64px;
 	height: 64px;
 	float: left;
-	margin: 0px;
 }
 #stackoverflow:hover { 	
 	opacity: 0.5;
@@ -246,7 +236,7 @@ button {
 .portfoliobox, .formbox {
 	float: left;
 	position: relative;
-	padding-top: 20px;
+	padding: 20px 0px;
 	background-color: #ffffff;
 	width: 600px;
 	margin-left: 150px;
@@ -263,14 +253,17 @@ button {
 	float: left;
 	position: relative;
 	margin-left: 4%;
-	margin-top: 4%;
+	margin-top: 25px;
 }
 .pic2, .pic4 {
 	float: right;
 	position: relative;
 	margin-right: 4%;
-	margin-top: 4%;
+	margin-top: 25px;
 }
+
+
+
 
 /*            DISPLAY @ 980px               */
 @media screen and (max-width: 980px) {
