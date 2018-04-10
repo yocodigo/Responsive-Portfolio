@@ -200,8 +200,6 @@ footer {
 	width: 300px;
 	float: left;
 	margin-top: 30px;
-	background-color: #ffffff;
-
 }
 label {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -210,23 +208,26 @@ label {
 	margin-bottom: 6px;
 	float: left;
 }
+input, textarea {
+	width: 500px;
+}
 input {
 	text-align: left;
-	width: 595px;
+	/* width: 595px; */
 	margin: 0px 0px 12px 10%;
 	border: 1px solid #dddddd;
 }
 textarea{
-	width: 595px;
+	/* width: 595px; */
 	height: 195px;
 	border: 1px solid #dddddd;
 	margin-left: 10%;
 }
 button {
-	background-color: #4aaaa5;
+	background-color: #383636;
 	color: #ffffff;
 	border-style: solid;
-	border-color: #4aaaa5;
+	border-color: #383636;
 	margin-bottom: 8%;
 	height: 40px;
 	width: 112px;
