@@ -23,14 +23,16 @@ img {
 	margin: 20px 20px;
 }
 /* Label background colors */
-#name, h4, #boxtitle, #connectme {
+#name, #boxtitle, #connectme {
 	font-family: Roboto;
 	font-size: 1.5em;
 	color: #fff;
 	text-align: center;
 }
 h4 {
+	font-family: Roboto;
 	width: 100%;
+	color: #000;
 }
 #topH3 {
 	font-family: Roboto;
@@ -246,7 +248,7 @@ button {
 	padding: 20px 0px;
 	background: radial-gradient(circle, rgba(202,202,212,1) 31%, rgba(126,128,130,1) 100%);
 	max-width: 600px;
-	margin-left: 150px;
+	margin-left: 300px;
 	margin-top: 50px;
 	border-color: gray;
 	border: 1px solid #EAEAEA;
@@ -261,13 +263,23 @@ button {
 	position: relative;
 	margin-left: 4%;
 	margin-top: 25px;
+	border-width: 3px;
+	border-style: outset;
 }
 .pic2, .pic4 {
 	float: right;
 	position: relative;
 	margin-right: 4%;
 	margin-top: 25px;
+	border-width: 3px;
+	border-style: outset;
 }
+.pic1, .pic2, .pic3, .pic4, .pic5 {
+	height: 207px;
+}
+
+
+
 
 
 
