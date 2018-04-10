@@ -16,11 +16,14 @@ img {
 #name {
 background: linear-gradient(to right, rgb(74, 173, 253) , rgba(102,102,102));
 }
-#name, h4, #topH3 {
+#name, h4, #topH3, #boxtitle, #connectme {
 	font-family: Roboto;
 	font-size: 1.5em;
 	color: #000000;
 	text-align: center;
+}
+h4 {
+	width: 100%;
 }
 #topH3 {
 	position: relative;
@@ -30,7 +33,6 @@ background: linear-gradient(to right, rgb(74, 173, 253) , rgba(102,102,102));
 	bottom: 2px;
 	height: 30px;
 	width: 256px;
-	/* margin-left: 5%; */
 	margin-bottom: 10%;
 	text-align: center;
 }
@@ -42,12 +44,10 @@ a {
 a:hover {
 	color: red;
 }
-
 .clearfix {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
 header {
   color: #333;
   background-color:#666666;
@@ -57,14 +57,12 @@ header {
   position: fixed;
   z-index: 100;
 }
-
 .headcontainer {
 	left: 158px;
 	width: 100%;
     margin: 0 auto;
     clear: both;
 }
-
 #name {
 	font-weight: bold;
 	float: left;
@@ -74,14 +72,12 @@ header {
 	color: white;
 	height: 88px;
 }
-
 nav, #formnavport {
 	float: right;
 	width: 240px;
 	height: 20px;
 	margin: 30px 370px 30px 0px;
 }
-
 #left, #middle, #right {
 	background-color: #666666;
 	color: #9d9d9d;
@@ -91,7 +87,6 @@ nav, #formnavport {
 	padding: 10px;
 	line-height: 5px;
 }
-
 #middle {
 	float: right;
 	padding: 10px;
@@ -99,13 +94,11 @@ nav, #formnavport {
 	border-right: 1px solid #efefef;
 	line-height: 5px;
 }
-
 #right {
 	float: right;
     padding: 10px;
     line-height: 5px;
 }
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -114,7 +107,6 @@ nav, #formnavport {
   	height: 50px;	
   	width: 100%;
 }
-
 .infobox {
 	float: left;
 	padding-top: 20px;
@@ -125,33 +117,19 @@ nav, #formnavport {
 	border-color: gray;
 	border: 1px solid #EAEAEA;
 }
-
 #boxtitle {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
-	font-size: 20px;
-	background: white;
-	color: #4aaaa5;
+	background: white;	
 	margin-left: 4%;
 	margin-right: 4%;
 	border-bottom: 3px solid #EAEAEA;
 	text-align: left;
 	padding-top:right;
 }
-
 .para {
 	margin: 3% 3% 2% 5%;
 	text-align: left;
 	line-height: 200%;
 }	
-
-/* img {
-	margin-top: 3%;
-	float: left;
-	margin-left: 5%;
-	margin-right: 2%;
-} */
-
 .connectbox, .formconnectbox {
 	float: left;
 	margin-top: 50px;
@@ -159,27 +137,20 @@ nav, #formnavport {
 	width: 270px;
 	height: 170px;
 	margin-left: 40px;
-	border: 1px solid #dddddd
+	border: 1px solid #dddddd;
+	padding-top: 20px;
 }
 #connectme {
-	margin-top: 10%;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
 	width: 200px;
-	font-size: 20px;
 	background: white;
-	color: #4aaaa5;	
-	border-bottom: 2px solid #eaeaea;
-	margin: 6% 12%;
-	padding-bottom: 5%;
+	border-bottom: 3px solid #EAEAEA;
+	margin: 0% 12%;
 }
 .icons {
 	margin-left: 12%;
 }
 #github {
 	float: left;
-	margin-left: 5px;
-	margin: 0px;
 }
 #github:hover { 	
 	opacity: 0.5;
@@ -193,11 +164,13 @@ nav, #formnavport {
 	opacity: 0.5;
     filter: alpha(opacity=50);
 }
+#stackoverflow, #linkedin, #github {
+	margin-top: 25px;
+}
 #stackoverflow {
 	width: 64px;
 	height: 64px;
 	float: left;
-	margin: 0px;
 }
 #stackoverflow:hover { 	
 	opacity: 0.5;
@@ -263,42 +236,34 @@ button {
 .portfoliobox, .formbox {
 	float: left;
 	position: relative;
-	padding-top: 20px;
+	padding: 20px 0px;
 	background-color: #ffffff;
-	width: 650px;
+	width: 600px;
 	margin-left: 150px;
 	margin-top: 50px;
 	border-color: gray;
 	border: 1px solid #EAEAEA;
-	height: 700px;
+	min-height: 400px;
+	overflow: hidden;
 }
 #pLabels, h4 {
 	position: absolute;
 }
-.pic1, .pic3 {
+.pic1, .pic3, .pic5 {
 	float: left;
 	position: relative;
-	margin-left: 20px;
-	margin-top: 30px;
+	margin-left: 4%;
+	margin-top: 25px;
 }
-.pic2 {
+.pic2, .pic4 {
 	float: right;
 	position: relative;
-	margin-right: 6%;
-	margin-top: 4%;
+	margin-right: 4%;
+	margin-top: 25px;
 }
-.pic4 {
-	float: right;
-	position: relative;
-	margin: 20px 30px;
-}
-.pic5 {
-	float: left;
-	position: relative;
-	margin-left: 2%;
-	margin-top: 5%;
-	margin-bottom: 40px;
-}
+
+
+
 
 /*            DISPLAY @ 980px               */
 @media screen and (max-width: 980px) {
@@ -312,6 +277,7 @@ button {
 
 	.portfoliobox, .formconnectbox {
 		width: 400px;
+		height: auto;
 		margin-left: 80px;
 		margin-top: 30px;
 	} 
@@ -443,7 +409,7 @@ button {
 		margin-left: -30px;
 		padding-left: 250px;
 	}
-	h4, #pLabels {
+	pLabels {
 		width: 256px;
 	}
 	.pic1,.pic3, .pic5  {
@@ -454,7 +420,7 @@ button {
 	}
 	.pic1, .pic2 {
 		margin-bottom: 50px;
-	}	\
+	}
 	.pic3, .pic4 {
 		margin-top: 0px;
 	}
