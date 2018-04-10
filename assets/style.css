@@ -16,6 +16,9 @@ body {
 img {
 	background: linear-gradient(to right, transparent, rgb(228, 131, 120));
   }
+#mypic {
+	margin: 20px 20px;
+}
 /* Label background colors */
 #name, h4, #boxtitle, #connectme {
 	font-family: Roboto;
@@ -114,16 +117,6 @@ nav, #formnavport {
   	height: 50px;	
   	width: 100%;
 }
-.infobox {
-	float: left;
-	padding-top: 20px;
-	background-color: #ffffff;
-	width: 450px;
-	margin-left: 150px;
-	margin-top: 50px;
-	border-color: gray;
-	border: 1px solid #EAEAEA;
-}
 #boxtitle {
 	/* background: white;	 */
 	margin-left: 4%;
@@ -133,9 +126,11 @@ nav, #formnavport {
 	padding-top:right;
 }
 .para {
+	float: left;
 	margin: 3% 3% 2% 5%;
 	text-align: left;
 	line-height: 200%;
+	color: #000;
 }	
 .connectbox, .formconnectbox {
 	float: left;
@@ -242,12 +237,12 @@ button {
 	margin-left: 10%;
 	float: left;
 }
-.portfoliobox, .formbox {
+.portfoliobox, .formbox, .infobox {
 	float: left;
 	position: relative;
 	padding: 20px 0px;
 	background: radial-gradient(circle, rgba(202,202,212,1) 31%, rgba(126,128,130,1) 100%);
-	width: 600px;
+	max-width: 600px;
 	margin-left: 150px;
 	margin-top: 50px;
 	border-color: gray;
