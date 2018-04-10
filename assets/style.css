@@ -16,6 +16,9 @@ body {
 * {
   box-sizing: border-box;
 }
+.centercontainer {
+	margin: auto;
+}
 img {
 	background: linear-gradient(to right, transparent, rgb(228, 131, 120));
   }
@@ -82,7 +85,7 @@ header {
 	font-weight: bold;
 	float: left;
 	font-size: 20px;
-	margin-left: 150px;
+	margin-left: 280px;
 	padding: 24px 32px 32px 32px;
 	color: white;
 	height: 88px;
@@ -91,7 +94,7 @@ nav, #formnavport {
 	float: right;
 	width: 240px;
 	height: 20px;
-	margin: 30px 480px 30px 0px;
+	margin: 30px 330px 30px 0px;
 }
 #left, #middle, #right {
 	/* background-color: #666666; */
@@ -158,17 +161,9 @@ nav, #formnavport {
 #github {
 	float: left;
 }
-#github:hover { 	
-	opacity: 0.5;
-    filter: alpha(opacity=50);
-}
 #linkedin {
 	float: left;
 	margin: 0px 5px;
-}
-#linkedin:hover { 	
-	opacity: 0.5;
-    filter: alpha(opacity=50);
 }
 #stackoverflow, #linkedin, #github {
 	margin-top: 25px;
@@ -177,10 +172,6 @@ nav, #formnavport {
 	width: 64px;
 	height: 64px;
 	float: left;
-}
-#stackoverflow:hover { 	
-	opacity: 0.5;
-    filter: alpha(opacity=50);
 }
 footer {
 	background: rgb(167,207,223);
@@ -258,6 +249,10 @@ button {
 #pLabels, h4 {
 	position: absolute;
 }
+img:hover {
+	opacity: .5;
+	filter: alpha(opacity=50);
+}	
 .pic1, .pic3, .pic5 {
 	float: left;
 	position: relative;
