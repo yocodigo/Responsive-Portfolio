@@ -23,7 +23,7 @@ img {
 	background: linear-gradient(to right, transparent, rgb(228, 131, 120));
   }
 #mypic {
-	margin: 20px 4%;
+	margin: 3% 3% 0% 4%;
 	float: left;
 }
 /* Label background colors */
@@ -86,7 +86,7 @@ header {
 	font-weight: bold;
 	float: left;
 	font-size: 20px;
-	margin-left: 280px;
+	margin-left: 290px;
 	padding: 24px 32px 32px 32px;
 	color: white;
 	height: 88px;
@@ -98,7 +98,6 @@ nav, #formnavport {
 	margin: 30px 330px 30px 0px;
 }
 #left, #middle, #right {
-	/* background-color: #666666; */
 	color: #fff;
 }
 #left {
@@ -135,7 +134,7 @@ nav, #formnavport {
 	padding-top:right;
 }
 .para {
-	margin: 3% 3% 2% 4%;
+	margin: 1.5% 3% 2% 4%;
 	text-align: left;
 	line-height: 200%;
 	color: #000;
@@ -158,17 +157,17 @@ nav, #formnavport {
 .icons {
 	margin-left: 12%;
 }
-#github {
+.github {
 	float: left;
 }
-#linkedin {
+.linkedin {
 	float: left;
 	margin: 0px 5px;
 }
-#stackoverflow, #linkedin, #github {
+.stackoverflow, .linkedin, .github {
 	margin-top: 25px;
 }
-#stackoverflow {
+.stackoverflow {
 	width: 64px;
 	height: 64px;
 	float: left;
@@ -213,12 +212,10 @@ input, textarea {
 }
 input {
 	text-align: left;
-	/* width: 595px; */
 	margin: 0px 0px 12px 10%;
 	border: 1px solid #dddddd;
 }
 textarea{
-	/* width: 595px; */
 	height: 195px;
 	border: 1px solid #dddddd;
 	margin-left: 10%;
@@ -228,7 +225,6 @@ button {
 	color: #ffffff;
 	border-style: solid;
 	border-color: #383636;
-	margin-bottom: 8%;
 	height: 40px;
 	width: 112px;
 	margin-left: 10%;
@@ -250,7 +246,7 @@ button {
 #pLabels, h4 {
 	position: absolute;
 }
-img:hover {
+.opac:hover {
 	opacity: .5;
 	filter: alpha(opacity=50);
 }	
@@ -273,72 +269,59 @@ img:hover {
 .pic1, .pic2, .pic3, .pic4, .pic5 {
 	height: 207px;
 }
+/*------------------------------------------           
 
+           RESPONSIVE SECTION                            
 
-
-
-
-
-
+--------------------------------------------*/
 /*            DISPLAY @ 980px               */
 @media screen and (max-width: 980px) {
 	#navport {
 		margin-right: 190px;
 	}
-
 	#name {
 		margin-left: 80px;
 	}
-
 	.portfoliobox, .formconnectbox {
 		width: 400px;
 		height: auto;
 		margin-left: 80px;
 		margin-top: 30px;
 	} 
-
 	.infobox {
 		width: 350px;
 		margin-left: 80px;
 		margin-top: 30px;
 	}
-	
 	.pic1, .pic2, .pic3, .pic4, .pic5 {
 		width: 200px;
 		height: 200px;
 	}
-
 	.pic1, .pic3 {
 		margin-left: 60px;
 	}	
-
 	.pic5 {
 		margin-left: 60px;
 		margin-bottom: 40px;
 	}
-
 	.pic2 {
 		margin-right: 138px;
 	}
-
 	.formbox {
 		width: 55	0px;
 	}
-
 	.connectbox {
 		margin-top: 30px;
 	}
-
 	#mypic {
 		width: 250px;
 		height: 250px;
 		margin: 15px 20px 15px 50px;
 	}
-
 	.para {
 		text-align: left;
 		line-height: 35px;
-		margin: 15px 15px 15px 30px;
+		margin: 15px 15px 0px 30px;
 	}
 
 }
@@ -347,35 +330,28 @@ img:hover {
 	#navport {
 		margin-right: 30px;
 	}
-
 	nav {
 		margin-right: 20px;
 	}
-
 	.portfoliobox, .formbox, .formconnectbox {
 		margin-left: 20px;
 		width: 710px;
 	}
-
 	.formconnectbox {
 		margin-top: 10px;
 	}
-
 	#name {
 		margin-left: 20px;
 	}
-
 	.infobox {
 		padding-top: 15px;
 		width: 720px;
 		margin-left: 20px;
 	}
-
 	#boxtitle {
 		margin-top: 10px;
 		padding-bottom: 20px;
 	}	
-
 	#mypic {
 		width: 250px;
 		height: 250px;
@@ -386,19 +362,16 @@ img:hover {
 		width: 660px;
 		margin: 20px 50px 30px 20px;
 	}
-
 	.connectbox {
 		width: 720px;
 		margin-left: 20px;
 		margin-top: 30px;
 	}
-
 	#connectme {
 		width: 670px;
 		margin: 10px 5px 15px 25px;
 		padding-bottom: 5px;
 	}
-
 	.icons {
 		margin-left: 25px;
 	}
@@ -413,7 +386,6 @@ img:hover {
 		width: 100%;
 		margin: 0px;
 		height: 45px;
-		padding-top: 
 	}
 	.portfoliobox, .formbox {
 		margin: 60px 0px 0px 30px;
