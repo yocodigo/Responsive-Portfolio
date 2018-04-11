@@ -23,7 +23,8 @@ img {
 	background: linear-gradient(to right, transparent, rgb(228, 131, 120));
   }
 #mypic {
-	margin: 20px 20px;
+	margin: 20px 4%;
+	float: left;
 }
 /* Label background colors */
 #name, #boxtitle, #connectme {
@@ -134,8 +135,7 @@ nav, #formnavport {
 	padding-top:right;
 }
 .para {
-	float: left;
-	margin: 3% 3% 2% 5%;
+	margin: 3% 3% 2% 4%;
 	text-align: left;
 	line-height: 200%;
 	color: #000;
@@ -381,8 +381,8 @@ img:hover {
 		height: 250px;
 		margin: 20px 20px 0px 20px;
 	}
-
 	.para {
+		text-align: left;
 		width: 660px;
 		margin: 20px 50px 30px 20px;
 	}
