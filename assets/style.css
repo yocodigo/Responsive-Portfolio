@@ -17,7 +17,14 @@ body {
   box-sizing: border-box;
 }
 .centercontainer {
+	min-height: 800px;
 	margin: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+}
+.centercontainer, .headcontainer {
+	max-width: 1000px;
 }
 img {
 	background: linear-gradient(to right, transparent, rgb(228, 131, 120));
@@ -44,6 +51,7 @@ h4 {
 	text-align: center;
 	position: relative;
 	color: #fff;
+	margin-left: 20px;
 }
 #pLabels {
 	background: linear-gradient(to right, rgb(74, 173, 253) , rgb(255,255,255));
@@ -65,6 +73,9 @@ a:hover {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.clearfix2 {
+	overflow: auto;
+}
 header {
 	background: rgb(167,207,223);
 	background: -moz-linear-gradient(top, rgba(167,207,223,1) 0%, rgba(35,83,138,1) 94%);
@@ -78,24 +89,28 @@ header {
 }
 .headcontainer {
 	left: 158px;
-	width: 100%;
-    margin: 0 auto;
-    clear: both;
+	height: 100%;
+    margin: auto;
+	clear: both;
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
 }
 #name {
 	font-weight: bold;
 	float: left;
 	font-size: 20px;
-	margin-left: 290px;
-	padding: 24px 32px 32px 32px;
+	padding: 24px 0px 32px 0px;
 	color: white;
 	height: 88px;
+	margin-left: 4.5%;
+	margin-right: 430px;
 }
 nav, #formnavport {
-	float: right;
+	float: left;
 	width: 240px;
 	height: 20px;
-	margin: 30px 330px 30px 0px;
+	margin: 30px 27px 30px 0px;
 }
 #left, #middle, #right {
 	color: #fff;
@@ -127,11 +142,11 @@ nav, #formnavport {
 }
 #boxtitle {
 	/* background: white;	 */
-	margin-left: 4%;
-	margin-right: 4%;
+	margin-left: 20px;
+	margin-right: 20px;
 	border-bottom: 3px solid #EAEAEA;
 	text-align: left;
-	padding-top:right;
+	padding-top: right;
 }
 .para {
 	margin: 1.5% 3% 2% 4%;
@@ -140,8 +155,8 @@ nav, #formnavport {
 	color: #000;
 }	
 .connectbox, .formconnectbox {
-	float: left;
-	margin-top: 50px;
+	display: inline-block;
+	margin-top: 30px;
 	background: radial-gradient(circle, rgba(202,202,212,1) 31%, rgba(126,128,130,1) 100%);
 	width: 270px;
 	height: 170px;
@@ -236,8 +251,9 @@ button {
 	padding: 20px 0px;
 	background: radial-gradient(circle, rgba(202,202,212,1) 31%, rgba(126,128,130,1) 100%);
 	max-width: 600px;
-	margin-left: 300px;
-	margin-top: 50px;
+	margin-top: 30px;
+	margin-left: 4.5%;
+	margin-right: auto;
 	border-color: gray;
 	border: 1px solid #EAEAEA;
 	min-height: 400px;
@@ -253,7 +269,7 @@ button {
 .pic1, .pic3, .pic5 {
 	float: left;
 	position: relative;
-	margin-left: 4%;
+	margin-left: 20px;
 	margin-top: 25px;
 	border-width: 3px;
 	border-style: outset;
@@ -261,7 +277,7 @@ button {
 .pic2, .pic4 {
 	float: right;
 	position: relative;
-	margin-right: 4%;
+	margin-right: 20px;
 	margin-top: 25px;
 	border-width: 3px;
 	border-style: outset;
@@ -269,11 +285,13 @@ button {
 .pic1, .pic2, .pic3, .pic4, .pic5 {
 	height: 207px;
 }
+
 /*------------------------------------------           
 
            RESPONSIVE SECTION                            
 
 --------------------------------------------*/
+
 /*            DISPLAY @ 980px               */
 @media screen and (max-width: 980px) {
 	#navport {
