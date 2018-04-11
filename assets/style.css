@@ -42,8 +42,8 @@ img {
 }
 h4 {
 	font-family: Roboto;
-	width: 100%;
 	color: #000;
+	text-align: center;
 }
 #topH3 {
 	font-family: Roboto;
@@ -52,13 +52,16 @@ h4 {
 	position: relative;
 	color: #fff;
 }
-#pLabels {
+h4 {
 	background: linear-gradient(to right, rgb(74, 173, 253) , rgb(255,255,255));
 	bottom: 2px;
 	height: 30px;
-	width: 256px;
+	max-width: 100%;
 	margin-bottom: 10%;
 	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
 }
 a {
     text-decoration: none;
@@ -71,6 +74,14 @@ a:hover {
 .clearfix {
     margin-top: 100px;
     margin-bottom: 100px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+ 	display: block;
+  	clear: both;
+  	height: 30px;	
+  	width: 100%;
 }
 .clearfix2 {
 	overflow: auto;
@@ -130,14 +141,6 @@ nav, #formnavport {
     padding: 10px 0px 10px 10px;
     line-height: 5px;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
- 	display: block;
-  	clear: both;
-  	height: 50px;	
-  	width: 100%;
-}
 #boxtitle {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -193,6 +196,7 @@ footer {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 );
 	padding: 20px;
 	bottom: 0;
+	height: 90px;
 	width: 100%;
 	color: #ffffff;
 	position: fixed;
@@ -219,9 +223,12 @@ label {
 	margin-bottom: 6px;
 	float: left;
 }
-input, textarea {
-	width: 500px;
+.formlabel {
+	max-width: 500px;
 }
+/* input, textarea {
+	width: 500px;
+} */
 input {
 	text-align: left;
 	margin: 0px 0px 12px 10%;
@@ -258,11 +265,17 @@ button {
 }
 #pLabels, h4 {
 	position: absolute;
+	width: 256px;
 }
 .opac:hover {
 	opacity: .5;
 	filter: alpha(opacity=50);
 }	
+#apps{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: 'contain';
+}
 .pic1, .pic3, .pic5 {
 	float: left;
 	position: relative;
@@ -292,15 +305,21 @@ button {
 /*            DISPLAY @ 980px               */
 @media screen and (max-width: 980px) {
 	#navport {
-		/* margin-right: 190px; */
+		margin-right: 14%;
 	}
 	#name {
-		margin-left: 80px;
+		margin-left: 12%;
 	}
-	.portfoliobox, .formconnectbox {
-		width: 400px;
+	.centercontainer {
+		max-height: 1256px;
+	}
+	#boxtitle {
+		margin-bottom: 10px;
+	}
+	.portfoliobox, .formbox {
+		width: 320px;
 		height: auto;
-		margin-left: 80px;
+		margin-left: 11%;
 		margin-top: 30px;
 	} 
 	.infobox {
@@ -308,25 +327,17 @@ button {
 		margin-left: 80px;
 		margin-top: 30px;
 	}
+	#apps {
+		height: 100%;
+	}
 	.pic1, .pic2, .pic3, .pic4, .pic5 {
-		width: 200px;
-		height: 200px;
-	}
-	.pic1, .pic3 {
-		margin-left: 60px;
-	}	
-	.pic5 {
-		margin-left: 60px;
-		margin-bottom: 40px;
-	}
-	.pic2 {
-		margin-right: 138px;
-	}
-	.formbox {
-		width: 55	0px;
+		width: 256px;
+		display: block;
+		margin: 10px 31px;
 	}
 	.connectbox {
-		margin-top: 30px;
+		margin-right: 11%;
+		width: 250px;
 	}
 	#mypic {
 		width: 250px;
@@ -338,7 +349,6 @@ button {
 		line-height: 35px;
 		margin: 15px 15px 0px 30px;
 	}
-
 }
 /*/////////////////////DISPLAY @ 768px///////////////////////*/
  @media screen and (max-width: 768px)  {
@@ -391,7 +401,6 @@ button {
 		margin-left: 25px;
 	}
 } 
-
 /*/////////////////////DISPLAY @ 640px///////////////////////*/
 @media screen and (max-width: 640px)  {
 	#navport{
@@ -412,7 +421,7 @@ button {
 		padding-left: 250px;
 	}
 	pLabels {
-		width: 256px;
+		max-width: 100%;
 	}
 	.pic1,.pic3, .pic5  {
 		left: -40px;
