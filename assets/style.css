@@ -173,20 +173,14 @@ nav, #formnavport {
 .icons {
 	margin-left: 12%;
 }
-.github {
+.github, .stackoverflow, .linkedin {
 	float: left;
 }
 .linkedin {
-	float: left;
 	margin: 0px 5px;
 }
 .stackoverflow, .linkedin, .github {
 	margin-top: 25px;
-}
-.stackoverflow {
-	width: 64px;
-	height: 64px;
-	float: left;
 }
 footer {
 	background: rgb(167,207,223);
@@ -358,9 +352,17 @@ button {
 	nav {
 		margin-right: 20px;
 	}
-	.portfoliobox, .formbox, .formconnectbox {
-		margin-left: 20px;
-		width: 710px;
+	.centercontainer {
+		max-height: 1500px;
+	}
+	.portfoliobox, .formbox, .formconnectbox{
+		margin-left: 13%;
+		width: 555px; 
+	}
+	.connectbox {
+		float: left;
+		width: 555px;
+		margin-left: 13%;
 	}
 	.formconnectbox {
 		margin-top: 10px;
@@ -374,6 +376,7 @@ button {
 		margin-left: 20px;
 	}
 	#boxtitle {
+		text-align: center;
 		margin-top: 10px;
 		padding-bottom: 20px;
 	}	
@@ -387,18 +390,28 @@ button {
 		width: 660px;
 		margin: 20px 50px 30px 20px;
 	}
-	.connectbox {
-		width: 720px;
-		margin-left: 20px;
-		margin-top: 30px;
-	}
 	#connectme {
-		width: 670px;
-		margin: 10px 5px 15px 25px;
+		width: 480px;
+		margin: 0px 5px 15px 10px;
 		padding-bottom: 5px;
 	}
 	.icons {
-		margin-left: 25px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: red;
+		width: 72.5%;
+		height: 60%;
+		margin: auto;
+		overflow: auto;
+	}
+	#icons {
+		width: 80px;
+		margin: 0px 6.6%;
+	}
+	.pic1, .pic2, .pic3, .pic4, .pic5 {
+		width: 235px;
+		display: block;
+		margin: 10px 20px;
 	}
 } 
 /*/////////////////////DISPLAY @ 640px///////////////////////*/
