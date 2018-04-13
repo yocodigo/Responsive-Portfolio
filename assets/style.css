@@ -76,9 +76,6 @@ a:hover {
   	height: 30px;	
   	width: 100%;
 }
-.clearfix2 {
-	overflow: auto;
-}
 header {
 	background: rgb(167,207,223);
 	background: -moz-linear-gradient(top, rgba(167,207,223,1) 0%, rgba(35,83,138,1) 94%);
@@ -144,7 +141,6 @@ nav, #formnavport {
 	color: #000;
 }	
 .connectbox, .formconnectbox {
-	/* display: inline-block; */
 	float: right;
 	margin-top: 30px;
 	background: radial-gradient(circle, rgba(202,202,212,1) 31%, rgba(126,128,130,1) 100%);
@@ -241,7 +237,6 @@ button {
 	border-color: gray;
 	border: 1px solid #EAEAEA;
 	min-height: 400px;
-	overflow: hidden;
 }
 #pLabels, h4 {
 	position: absolute;
@@ -411,9 +406,12 @@ button {
 		margin: 0px;
 		height: 45px;
 	}
+	.clearfix2 {
+		
+	}
 	.portfoliobox, .formbox {
-		margin: 15% 50%;
-		width: 100%;	
+		margin: 60px 12.5% 0px 12.5%;
+		width: 480px;	
 	}
 	#name {
 		width: 100%;
