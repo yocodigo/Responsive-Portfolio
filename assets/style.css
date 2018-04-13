@@ -40,7 +40,6 @@ img {
 h4 {
 	font-family: Roboto;
 	color: #000;
-	text-align: center;
 }
 #topH3 {
 	font-family: Roboto;
@@ -53,7 +52,7 @@ h4 {
 	background: linear-gradient(to right, rgb(74, 173, 253) , rgb(255,255,255));
 	bottom: 2px;
 	height: 30px;
-	max-width: 100%;
+	width: 100%;
 	margin-bottom: 10%;
 	text-align: center;
 }
@@ -92,7 +91,6 @@ header {
 	z-index: 100;
 }
 .headcontainer {
-	/* left: 158px; */
 	height: 100%;
     margin: auto;
 	clear: both;
@@ -211,9 +209,6 @@ label {
 .formlabel {
 	max-width: 500px;
 }
-/* input, textarea {
-	width: 500px;
-} */
 input {
 	text-align: left;
 	margin: 0px 0px 12px 10%;
@@ -250,7 +245,7 @@ button {
 }
 #pLabels, h4 {
 	position: absolute;
-	width: 256px;
+	width: 100%;
 }
 .opac:hover {
 	opacity: .5;
@@ -407,22 +402,26 @@ button {
 /*/////////////////////DISPLAY @ 640px///////////////////////*/
 @media screen and (max-width: 640px)  {
 	#navport{
+		width: 100%;
 		margin: auto;
+		background-color: rgba(35,83,138,1);
 	}
 	#formnavport {
 		width: 100%;
 		margin: 0px;
 		height: 45px;
 	}
-	
 	.portfoliobox, .formbox {
-		margin: 60px 0px 0px 30px;
-		width: 480px;	
+		margin: 15% 50%;
+		width: 100%;	
 	}
 	#name {
-		width: 653px;
-		margin-left: -30px;
-		padding-left: 250px;
+		width: 100%;
+		margin: auto;
+	}
+	#topH3 {
+		width: 100%;
+		text-align: center;
 	}
 	pLabels {
 		max-width: 100%;
@@ -437,20 +436,19 @@ button {
 	}
 	#left {
 		float: left;
-		margin-left: 70px;
+	}
+	#left, #middle, #right {
+		width: 33.3%;
+		text-align: center;
 		font-size: 15px;
 	}
 	#right {
 		float: right;
-		padding-left: 10px;
-		margin-right: 70px;
-		font-size: 15px;
+		
 	}
 	#middle {
 		float: right;
-		padding: 10px 50px;
-		margin: 0px 100px 0px 80px;
-		font-size: 15px;
+		padding: 10px 10%;
 	}	
 	nav {
 		width: 640px;
