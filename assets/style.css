@@ -293,6 +293,11 @@ button {
 		height: auto;
 		margin-left: 11%;
 	} 
+	.contactinfo {
+		width: 280px;
+		float: left;
+		margin-top: 20px;
+	}
 	.infobox {
 		min-width: 350px;
 		margin-left: 80px;
@@ -310,14 +315,14 @@ button {
 		width: 250px;
 	}
 	#mypic {
-		width: 250px;
+		width: 278px;
 		height: 250px;
-		margin: 15px 20px 15px 50px;
+		margin: 15px 20px 15px 20px;
 	}
 	.para {
 		text-align: left;
 		line-height: 35px;
-		margin: 15px 15px 0px 30px;
+		margin: 15px 15px 0px 20px;
 	}
 }
 /*/////////////////////DISPLAY @ 768px///////////////////////*/
@@ -335,6 +340,11 @@ button {
 	.portfoliobox, .formbox, .formconnectbox{
 		margin-left: 13%;
 		width: 555px; 
+	}
+	.contactinfo {
+		width: 515px;
+		float: left;
+		margin-top: 20px;
 	}
 	.connectbox {
 		float: left;
@@ -366,8 +376,8 @@ button {
 	}
 	.para {
 		text-align: left;
-		width: 660px;
-		margin: 20px 50px 30px 20px;
+		width: 520px;
+		margin: 20px 50px 0px 20px;
 	}
 	#connectme {
 		width: 100%;
@@ -428,6 +438,11 @@ button {
 		height: 250px;
 		margin: 10px 73px;
 	}
+	.contactinfo {
+		width: 360px;
+		float: left;
+		margin-top: 20px;
+	}
 	#apps {
 		width: 100%;
 	}
@@ -461,21 +476,21 @@ button {
 		margin-top: 100px;
 	}
 	#boxtitle {
-		padding-bottom: 20px;
+		padding-bottom: 10px;
+		margin-top: 0px;
 	}	
 	#mypic {
-		width: 430px;
-		height: 450px;
-		margin: 15px 25px 10px 75px;
+		width: 355px;
+		height: 330px;
+		margin: 15px 0px 10px 20px;
 	}
 	.para {
-		width: 520px;
+		width: 370px;
 		float: left;
 		line-height: 35px;
-		margin: 10px 10px 20px 25px;
+		margin: 10px 10px 0px 25px;
 	}
 	.connectbox, .formconnectbox {
-		/* float: left; */
 		width: 400px;
 		height: 180px;
 		margin: 40px 80px 0px 15%;
