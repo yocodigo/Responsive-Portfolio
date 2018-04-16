@@ -65,7 +65,7 @@ a:hover {
 	color: red;
 }
 .clearfix {
-    margin-top: 100px;
+    margin-top: 145px;
     margin-bottom: 100px;
 }
 .clearfix::after {
@@ -142,7 +142,6 @@ nav, #formnavport {
 }	
 .connectbox, .formconnectbox {
 	float: right;
-	margin-top: 30px;
 	background: radial-gradient(circle, rgba(202,202,212,1) 31%, rgba(126,128,130,1) 100%);
 	width: 270px;
 	height: 170px;
@@ -231,7 +230,6 @@ button {
 	padding: 20px 0px;
 	background: radial-gradient(circle, rgba(202,202,212,1) 31%, rgba(126,128,130,1) 100%);
 	max-width: 580px;
-	margin-top: 30px;
 	margin-left: 4.5%;
 	margin-right: auto;
 	border-color: gray;
@@ -295,7 +293,6 @@ button {
 		width: 320px;
 		height: auto;
 		margin-left: 11%;
-		margin-top: 30px;
 	} 
 	.infobox {
 		min-width: 350px;
@@ -328,7 +325,8 @@ button {
 /*/////////////////////DISPLAY @ 768px///////////////////////*/
  @media screen and (max-width: 768px)  {
 	#navport {
-		margin-right: 30px;
+		float: left;
+		margin-right: 0px;
 	}
 	nav {
 		margin-right: 20px;
@@ -344,12 +342,14 @@ button {
 		float: left;
 		width: 555px;
 		margin-left: 13%;
+		margin-top: 40px;
 	}
 	.formconnectbox {
 		margin-top: 10px;
 	}
 	#name {
-		margin-left: 20px;
+		margin-left: 110px;
+		margin-right: 98px;
 	}
 	.infobox {
 		padding-top: 15px;
@@ -372,22 +372,23 @@ button {
 		margin: 20px 50px 30px 20px;
 	}
 	#connectme {
-		width: 480px;
-		margin: 0px 5px 15px 10px;
+		width: 100%;
+		margin: 0px 5px 15px 0px;
 		padding-bottom: 5px;
 	}
 	.icons {
-		border-style: solid;
-		border-width: 1px;
-		border-color: red;
-		width: 72.5%;
-		height: 60%;
+		width: 304px;
+		height: 80px;
 		margin: auto;
-		overflow: auto;
 	}
 	#icons {
 		width: 80px;
-		margin: 0px 6.6%;
+	}
+	.linkedin {
+		margin: 0px 32px;
+	}
+	.github, .stackoverflow {
+		margin: 0px;
 	}
 	.pic1, .pic2, .pic3, .pic4, .pic5 {
 		width: 235px;
@@ -406,12 +407,12 @@ button {
 		margin: 0px;
 		height: 45px;
 	}
-	.clearfix2 {
-		
+	.clearfix {
+		margin-top: 190px;
 	}
 	.portfoliobox, .formbox {
-		margin: 60px 12.5% 0px 12.5%;
-		width: 480px;	
+		margin: 0px 15%;
+		width: 400px;	
 	}
 	#name {
 		width: 100%;
@@ -476,21 +477,29 @@ button {
 		margin: 10px 10px 20px 25px;
 	}
 	.connectbox, .formconnectbox {
-		float: right;
-		width: 660px;
+		/* float: left; */
+		width: 400px;
 		height: 180px;
-		margin: 20px 80px 0px 30px;
+		margin: 40px 80px 0px 15%;
 		background-color: #ffffff;
 	}
 	#connectme {
 		float: left;
-		width: 530px;
-		height: 50px;
-		margin: 15px 0px 25px 25px;
-		padding-bottom: 5px;
+		width: 380px;
+		height: 40px;
+		margin: 0px 0px 20px 10px;
 	}
 	.icons {
-		float: left;
-		margin-left: 25px;
+		position: relative;
+		width: 304px;
+	}
+	.linkedin {
+		margin: 0px 32px;
+	}
+	.github, .stackoverflow {
+		margin: 0px;
+	}
+	.pic1, .pic2, .pic3, .pic4, .pic5 {
+		margin: 10px 34px;
 	}
 }
