@@ -5,7 +5,6 @@ Welcome to my portfolio! Here I showcase some of my favorite web apps using a va
 
 Thank you for stopping by!
 
-# Deployed Site
 [My Portfolio](https://yocodigo.github.io/Responsive-Portfolio/)
 
 # Screenshots
