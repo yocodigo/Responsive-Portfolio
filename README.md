@@ -8,8 +8,14 @@ Thank you for stopping by!
 [My Portfolio](https://yocodigo.github.io/Responsive-Portfolio/)
 
 # Screenshots
+* This is a sample of the portfolio page at greater than 980px:
 <p align="center">
   <img src = "https://github.com/yocodigo/Responsive-Portfolio/blob/master/images/portfolio%20screenshot.png" width=350>
+</p>
+
+* This is the same page but this time at less than 640px:
+<p align="center">
+  <img src = "https://github.com/yocodigo/Responsive-Portfolio/blob/master/images/portfolio%20screenshot2.png" width=350>
 </p>
 
 
